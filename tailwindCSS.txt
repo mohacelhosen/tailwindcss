@@ -1,0 +1,14 @@
+# create .html and .css file and link your css with html file
+
+->  npm init -y   //intialize the projects
+->  npm install -D tailwindcss postcss autoprefixer vite   //install tailwinds, postcss, autoprefixer and vite
+->  npx tailwindcss init -p 	//create postCSS config file and tailwindsCSS config file
+->  in tailwind.config.js {  content: ['*'], } 	//so that we can use tailwind anywhere into this project 
+->  inside package.json {   "scripts": {"start": "vite"}, }   //so that we can use vite
+
+
+=>    @tailwind base;
+	@tailwind components;
+	@tailwind utilities;	//Add the Tailwind directives to your CSS file {  mystyle.css}
+
+->  npm run start	 //start your build process  {instead of dev we use start because we change it in step 5 :)}
