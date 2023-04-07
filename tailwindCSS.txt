@@ -12,3 +12,13 @@
 	@tailwind utilities;	//Add the Tailwind directives to your CSS file {  mystyle.css}
 
 ->  npm run start	 //start your build process  {instead of dev we use start because we change it in step 5 :)}
+
+
+#to build this project go to "package.json" file 
+add this script
+
+  "scripts": {
+    "start": "vite",
+    "dev": "vite build"
+  },
+=>  npm run dev
